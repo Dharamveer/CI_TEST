@@ -1,7 +1,7 @@
 
 
 CREATE COMPUTE MODULE hh_Compute
-	CREATE FUNCTION Main() RETURNS BOOLEAN
+  CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN
 		CALL CopyMessageHeaders();
 		 CALL CopyEntireMessage();
