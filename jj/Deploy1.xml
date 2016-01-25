@@ -1,0 +1,18 @@
+<project name="jj" default="run">
+	<target name="run" description="">
+		<property name="mqsideploy.dir" value="C:\Program Files\IBM\IIB\10.0.0.3\server\bin"/>
+    		<property name="mqsideploy.port" value="4414"/>
+    		<property name="node.dir" value="default"/>
+    <antcall target="deploy" />
+	</target>
+	<target name="deploy">
+   	<echo message="Deploying the message flow to ${node.dir} Execution Group"/>
+   	<exec executable="${mqsideploy.dir}\mqsideployscript.bat">
+   	<arg value="-p"/>
+	<arg value="${mqsideploy.port}"/>
+   	<arg value="-e"/>
+        <arg value="${node.dir}"/>   
+   	<arg value="-a hello.bar"/>
+	</exec>
+  </target>
+</project>
