@@ -1,0 +1,27 @@
+TWS.INCIDENT_CREATION_TO_SERVICENOW	
+TWS.INCIDENT_CREATION_TO_SERVICENOW.ERROR	
+TWS.INCIDENT_CREATION_TO_SERVICENOW.DATAERROR	
+
+
+one system of record
+pacific sales-appliances release 2
+93 stores 37 standalone
+56 sws
+23 vendors
+bby- 8 vendors
+pacsales 200% revenue lift>bby appliances
+partial payment concept was from pacsales
+
+
+partial pay- 
+resreve now take them when i want them
+partial order.
+
+OMS -> stores all info about ppay order
+OMS -> r3v ---> rdf
+
+
+a poslog 
+
+ducumentem:- where all legal terms and conditions are stored
+

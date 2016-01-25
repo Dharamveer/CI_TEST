@@ -1,0 +1,42 @@
+q02mbap02 (q02mbap02):dis qs (RMS.WMS_ATS_RTV.MAN)
+
+AMQ8450: Display queue status details.
+   QUEUE(RMS.WMS_ATS_RTV.MAN)              TYPE(QUEUE)
+   CURDEPTH(0)                             IPPROCS(1)
+   LGETDATE(2016-01-22)                    LGETTIME(03.47.06)
+   LPUTDATE(2016-01-22)                    LPUTTIME(03.47.06)
+   MEDIALOG( )                             MONQ(MEDIUM)
+   MSGAGE(0)                               OPPROCS(0)
+   QTIME(16663326, 5619677)                UNCOM(NO)
+
+
+
+
+q08mqap05 (q08mqap05):dis qs (DELIVERYORDER_MAN.BLOOMINGTON)
+
+AMQ8450: Display queue status details.
+   QUEUE(DELIVERYORDER_MAN.BLOOMINGTON)    TYPE(QUEUE)
+   CURDEPTH(30)                            IPPROCS(0)
+   LGETDATE( )                             LGETTIME( )
+   LPUTDATE(2016-01-22)                    LPUTTIME(03.50.20)
+   MEDIALOG( )                             MONQ(MEDIUM)
+   MSGAGE(4507)                            OPPROCS(0)
+   QTIME( , )                              UNCOM(NO)
+
+
+q08mqap05 (q08mqap05):dis qs (PURCHASEORDER_MAN.BLOOMINGTON)
+
+AMQ8450: Display queue status details.
+   QUEUE(PURCHASEORDER_MAN.BLOOMINGTON)    TYPE(QUEUE)
+   CURDEPTH(1515)                          IPPROCS(0)
+   LGETDATE(2016-01-07)                    LGETTIME(14.10.14)
+   LPUTDATE(2016-01-22)                    LPUTTIME(04.30.59)
+   MEDIALOG( )                             MONQ(MEDIUM)
+   MSGAGE(8504)                            OPPROCS(0)
+   QTIME(16105, 16105)                     UNCOM(NO)
+
+
+
+
+
+

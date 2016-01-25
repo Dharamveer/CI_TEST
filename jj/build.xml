@@ -6,6 +6,10 @@
     <property name="bar.name" value="${ant.bars.basedir}\TestFlow.bar" />
     <property name="workspace.dir" value="C:\Users\dharamveer.pradhan\IBM\IIBT10\workspace" />
     <antcall target="build" />
+    <property name="mqsideploy.dir" value ="C:\Program Files\IBM\IIB\10.0.0.3\server" />
+    <property name ="mqsideploy.port" value = "4414" />
+    <property name ="node.dir" value = "default" />
+    <property name ="bar.path" value = "C:\mybar\hello.bar" />
   </target>
   <target name="build">
      <echo message="Building the Message Broker Project @ ${workspace.dir}" />
@@ -21,6 +25,16 @@
         <!-- List all the files to be included in the archive --> 
         <arg value="-o" />
             <arg value="jj\hh.msgflow" />
+     </exec>
+	<echo message="Deploying the message flow to @ ${node.dir}" />
+     <exec executable="${mqsideploy.dir}\mqsideploy.exe" spawn="false">
+        <arg value="-p" />
+            <arg value="${mqsideploy.port}" />
+        <arg value="-e" />
+            <arg value="${node.name}" />
+        <!-- List all the message flow projects --> 
+        <arg value="-a" />
+            <arg value="bar.path" />
      </exec>
   </target>
 </project>
