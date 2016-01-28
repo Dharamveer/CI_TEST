@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <project name="jj" default="run">
+  <echo message="Hello, world"/>
   <target name="run" description="">
     <property name="toolkit.home" value="C:\Program Files\IBM\IIB\10.0.0.3\tools" />
     <property name="ant.bars.basedir" value="C:\mybar" />
