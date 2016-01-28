@@ -3,7 +3,7 @@
 		<property name="mqsideploy.dir" value="C:\Program Files\IBM\IIB\10.0.0.3\server\bin"/>
     		<property name="mqsideploy.port" value="4414"/>
     		<property name="node.dir" value="default"/>
-    		<echo message="Hello, world"/>
+    		<echo message="Hello, world babu"/>
     <antcall target="deploy" />
 	</target>
 	<target name="deploy">
