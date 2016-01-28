@@ -4,7 +4,7 @@
     <property name="toolkit.home" value="C:\Program Files\IBM\IIB\10.0.0.3\tools" />
     <property name="ant.bars.basedir" value="C:\mybar" />
     <property name="bar.name" value="${ant.bars.basedir}\TestFlow.bar" />
-    <property name="workspace.dir" value="C:\Users\dharamveer.pradhan\IBM\IIBT10\workspace" />
+    <property name="workspace.dir" value="C:\Program Files (x86)\Jenkins\jobs\TEST_01\workspace" />
     <antcall target="build" />
   </target>
   <target name="build">
